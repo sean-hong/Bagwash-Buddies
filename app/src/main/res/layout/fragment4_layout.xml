@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatMsgs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/LL_Msg" />
+
+    <LinearLayout
+        android:id="@+id/LL_Msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <EditText
+            android:id="@+id/msgTxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:autofillHints="Enter a message"
+            android:hint="Enter a message"
+            android:inputType="textAutoCorrect" />
+
+        <ImageButton
+            android:id="@+id/sendMsgBtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/design_default_color_primary"
+            android:contentDescription="Send the message"
+            android:src="@android:drawable/ic_menu_send"
+            app:tint="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

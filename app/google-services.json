@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "133916934304",
+    "project_id": "bagwash-buddies-mobile",
+    "storage_bucket": "bagwash-buddies-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133916934304:android:6139fb178d6955973889c5",
+        "android_client_info": {
+          "package_name": "com.example.bagwashbuddies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133916934304-d6hbskh7el23qu1bn5onffb7rkkd08nm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bagwashbuddies",
+            "certificate_hash": "524f5fe3319aeb52a65b278d78d5ef64a639b372"
+          }
+        },
+        {
+          "client_id": "133916934304-rb300biqfb3nqk3ufded0ji3rqso0rh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATL5WUDSSCkh1QPcLMf75kulmLCfZ2Svo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133916934304-rb300biqfb3nqk3ufded0ji3rqso0rh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

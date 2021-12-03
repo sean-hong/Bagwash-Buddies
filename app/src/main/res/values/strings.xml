@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Bagwash Buddies</string>
+    <string name="title_activity_laundry">LaundryActivity</string>
+    <string name="tab_text_1">Dorm 1</string>
+    <string name="tab_text_2">Dorm 2</string>
+    <string name="tab_text_3">Dorm 3</string>
+    <string name="tab_text_4">Help Bot</string>
+</resources>
